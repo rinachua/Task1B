@@ -12,7 +12,7 @@ nodes:
           node-labels: "ingress-ready=true,topology.kubernetes.io/zone=a"
     extraPortMappings:
       - containerPort: 80
-        hostPort: 80
+        hostPort: 84
         protocol: TCP
   - role: worker
     kubeadmConfigPatches:
